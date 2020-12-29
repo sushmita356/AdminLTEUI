@@ -55,6 +55,7 @@ body{
 }
 .headerIcons{
   color: white;
+  padding:0;
   
 }
 .headerIcons .iconInHeader{
@@ -66,10 +67,6 @@ body{
   size: 18px;
   justify-content: center;
   align-items: center;
-
-}
-.headerIcons .iconInHeader:hover{
-background-color: #3c8dbc;
 
 }
 .mr-auto{
