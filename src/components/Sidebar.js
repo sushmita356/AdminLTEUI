@@ -13,6 +13,8 @@ function Sidebar() {
               <div id="icon">{val.icon}</div>
               {""}
               <div id="title">{val.title}</div>
+              {""}
+              <div id="pull">{val.pull}</div>
             </li>
           );
         })}

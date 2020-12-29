@@ -45,8 +45,13 @@ body{
 }
 
 .row #title{
-  flex:70%;
+  flex:50%;
 }
+.row #pull{
+  flex:20%;
+  place-items: center;
+}
+
 .color-nav{
   background-color: #3c8dbc;
 }
