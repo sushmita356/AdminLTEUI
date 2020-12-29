@@ -50,3 +50,48 @@ body{
 .color-nav{
   background-color: #3c8dbc;
 }
+.name{
+  padding-left: 50px;
+}
+.headerIcons{
+  color: white;
+  
+}
+.headerIcons .iconInHeader{
+  /* padding-left:5px;
+  padding-right:5px; */
+  margin-left:20px;
+  margin-right:20px;
+  margin-top: 4px;
+  size: 18px;
+  justify-content: center;
+  align-items: center;
+
+}
+.headerIcons .iconInHeader:hover{
+background-color: #3c8dbc;
+
+}
+.mr-auto{
+  color: white;
+}
+.mr-auto .menubarIcon{
+  margin-left:90px;
+
+}
+
+.userImg{
+  width: 25px;
+  height: 25px;
+  /* margin-left:20px;
+  margin-right:20px; */
+
+}
+.username{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 12px;
+  font-weight: white;
+  
+}

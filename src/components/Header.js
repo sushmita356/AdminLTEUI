@@ -1,33 +1,43 @@
 import React from "react";
 import "../App.css";
-import {Navbar,Nav,NavDropdown} from 'react-bootstrap';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
+import { faBell } from "@fortawesome/free-solid-svg-icons";
+import { faFlag } from "@fortawesome/free-solid-svg-icons";
+import { faCogs } from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+// import "./user.jpg";
+
+import { Navbar, Nav, Col, Image } from "react-bootstrap";
 function Header() {
   return (
     <div>
-      <Navbar className="color-nav" collapseOnSelect expand="lg"  variant="dark">
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+      <Navbar className="color-nav" collapseOnSelect expand="lg" variant="dark">
+        <Navbar.Brand className="name" href="#home">
+          AdminLTE
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
+            <FontAwesomeIcon className="menubarIcon" icon={faBars} />
           </Nav>
-          <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memes
-            </Nav.Link>
+          <Nav className="headerIcons">
+            <FontAwesomeIcon className="iconInHeader" icon={faEnvelope} />
+            <FontAwesomeIcon className="iconInHeader" icon={faBell} />
+            <FontAwesomeIcon className="iconInHeader" icon={faFlag} />
+            <Col xs={2}>
+              <Image
+                className="userImg"
+                src="https://cdn.pixabay.com/photo/2019/03/15/09/49/girl-4056684_960_720.jpg"
+                roundedCircle
+              />
+            </Col>
+            <Navbar.Text className='username'>
+              {'Alexander'}
+            </Navbar.Text>
+
+            <FontAwesomeIcon className="iconInHeader" icon={faCogs} />
           </Nav>
         </Navbar.Collapse>
       </Navbar>

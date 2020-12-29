@@ -34,7 +34,7 @@ const Sidebardata = [
     {
         title:"ui elements",
         icon:<DashboardIcon/>,
-        link:'/ui elements'
+        link:'/uiElements'
 
     },
     {
