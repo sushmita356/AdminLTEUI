@@ -11,6 +11,8 @@ import { FaShare } from "react-icons/fa";
 import { FaPencilAlt } from "react-icons/fa";
 import { FaAngleLeft } from "react-icons/fa";
 import {FaCircleNotch} from 'react-icons/fa';
+import "../App.css";
+
 
 // import { FaUserCircle } from "react-icons/fa";
 
@@ -109,21 +111,21 @@ const Sidebardata = [
   },
   {
     title: "important",
-    icon: <FaCircleNotch />,
+    icon: <FaCircleNotch className='impicon' />,
     link: "/important",
     pull:''
 
   },
   {
     title: "warning",
-    icon: <FaCircleNotch />,
+    icon: <FaCircleNotch className='warnicon' />,
     link: "/warning",
     pull:''
 
   },
   {
     title: "Information",
-    icon: <FaCircleNotch />,
+    icon: <FaCircleNotch className='infoicon'/>,
     link: "/Information",
     pull:''
 

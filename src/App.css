@@ -97,3 +97,12 @@ body{
   font-weight: white;
   
 }
+.impicon{
+  color: red;
+}
+.warnicon{
+  color: yellow;
+}
+.infoicon{
+  color: blue;
+}
