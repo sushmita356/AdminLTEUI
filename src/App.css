@@ -11,8 +11,9 @@ body{
 .sidebar{
   width: 250px;
   height: 95%;
-  padding-top: 20px;
+  padding-top: 0;
   background-color: #333;
+  position: fixed;
 
 }
 .sidebarlist{
@@ -105,4 +106,12 @@ body{
 }
 .infoicon{
   color: blue;
+}
+.dashboard{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 100px;
+  /* padding: 0; */
 }

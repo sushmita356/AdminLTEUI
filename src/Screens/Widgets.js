@@ -3,8 +3,8 @@ import "../App.css";
 
 function Dashboard() {
   return (
-    <div>
-      <h1 className="dashboard">hello</h1>
+    <div className="dashboard">
+      <h1 className="dashboard">Widgets page</h1>
     </div>
   );
 }
