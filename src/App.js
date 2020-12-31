@@ -10,10 +10,12 @@ import{
 
 import Dashboard from './Screens/Dashboard';
 import Widgets from './Screens/Widgets';
+import Login from './Screens/Login';
 
 function App() {
   return (
     <div className="App">
+      <Login/>
       <Header/>
       <Sidebar/>
 
