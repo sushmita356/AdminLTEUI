@@ -14,7 +14,7 @@ function Header() {
   return (
     <div>
       <Navbar className="color-nav" collapseOnSelect expand="lg" variant="dark">
-        <Navbar.Brand className="name" href="#home">
+        <Navbar.Brand  className="name" href="#home">
           AdminLTE
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -33,7 +33,7 @@ function Header() {
                 roundedCircle
               />
             </Col>
-            <Navbar.Text className='username'>
+            <Navbar.Text style={{color:"white"}}>
               {'Alexander'}
             </Navbar.Text>
 

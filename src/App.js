@@ -10,14 +10,18 @@ import{
 
 import Dashboard from './Screens/Dashboard';
 import Widgets from './Screens/Widgets';
-import Login from './Screens/Login';
+// import Login from './Screens/Login';
+// import Error from './Screens/Error';
 
 function App() {
   return (
     <div className="App">
-      <Login/>
       <Header/>
+
       <Sidebar/>
+
+      {/* <Login/> */}
+
 
       <Router>
       <Route path="/" exact>
