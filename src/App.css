@@ -115,6 +115,39 @@ body{
   margin-top: 100px;
   /* padding: 0; */
 }
+.ipInCard{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  /* transition: 0.3s; */
+  border-radius: 30px;
+}
+.dashboard .ipInCard .ipfield{
+  color: green;
+  float: left;
+  /* margin: 3px; */
+
+  /* align-items: left; */
+  /* margin-right: 10px;
+  flex-direction: row;
+  flex: 1; */
+  /* text-align:justify; */
+  /* padding-left: 0px; */
+  /* left:80px; */
+}
+.dashboard .ipInCard .control{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+.dashboard .ipInCard .btn{
+  border-radius: 25px;
+  width: 200px;
+  color: white;
+  font-weight: bold;
+}
 
 @media all and (min-width: 480px) {
   .Login {
